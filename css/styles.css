@@ -42,34 +42,24 @@ h1.coding-header {
 display: flex; 
 background-color: lightblue; 
 padding: 15px; 
-
+width: 100%; 
 
 
 }
 
 
-.flexChild-1 {
+.flexChild {
     background-color: white; 
     padding: 10px; 
     margin: 10px; 
-    height: 200px; 
-
-}
-
-.flexChild-2 {
-    background-color: green; 
-    padding: 10px; 
-    margin: 10px; 
-    height: 400px; 
+    height: 700px; 
 
 }
 
 
-.flexChild-3 {
-    background-color: darkblue; 
-    padding: 10px; 
-    margin: 10px; 
-    height: 300px; 
+ 
+figure.dog {width: 100%; margin: 0 auto;}
+figure.dog img {width: 100%; margin: 0 auto;}
+ 
 
-}
 
