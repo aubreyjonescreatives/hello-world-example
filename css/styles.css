@@ -31,11 +31,6 @@ h1.coding-header {
 
 }
 
-#codingHeader {
-
-
-}
-
 
 
 .parentContainer {
@@ -60,6 +55,104 @@ width: 100%;
  
 figure.dog {width: 100%; margin: 0 auto;}
 figure.dog img {width: 100%; margin: 0 auto;}
+
+
+
+.containerGrid {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+    background-color: red; 
+    color: white; 
+    font-size: 24px; 
+    text-align: left; 
+    padding: 20px; 
+    margin: 20px; 
+
+}
+
+
+.child {
+    display: grid; 
+    grid-template-rows: 10px; 
+    gap: 20px; 
+    margin: 20px; 
+    padding: 20px; 
+}
  
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+
+.containerGrid-2 {
+    display: grid; 
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 50% 50%; 
+    gap: 20px; 
+    background-color: blue; 
+    color: white; 
+    font-size: 24px; 
+    text-align: left; 
+    padding: 20px; 
+    margin: 20px; 
+
+}
+
+}
+ 
+@media only screen and (min-width: 901px) and (max-width: 1400px) {
+
+    .containerGrid-2 {
+        display: grid; 
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 50% 50%; 
+        gap: 20px; 
+        background-color: purple; 
+        color: blue; 
+        font-size: 24px; 
+        text-align: left; 
+        padding: 20px; 
+        margin: 20px; 
+    
+    }
+
+    
 
 
+
+}
+
+
+
+ 
+@media only screen and (min-width: 1401px) and (max-width: 2000px) {
+
+    .containerGrid-2 {
+        display: grid; 
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 50% 50%; 
+        gap: 20px; 
+        background-color: yellow; 
+        color: black; 
+        font-size: 24px; 
+        text-align: left; 
+        padding: 20px; 
+        margin: 20px; 
+    
+    }
+
+}
+    
+
+.grid {
+    font-size: 24px; 
+    padding: 20px; 
+    background-color: green; 
+    color: white; 
+
+
+}
+
+.content {
+    grid-area: content; 
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+}
