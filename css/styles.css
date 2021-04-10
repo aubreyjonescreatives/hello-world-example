@@ -152,7 +152,14 @@ figure.dog img {width: 100%; margin: 0 auto;}
 }
 
 .content {
-    grid-area: content; 
+     
     display: grid; 
-    grid-template-columns: 1fr 1fr 1fr; 
+    flex-direction: column; 
+    justify-content: end;
 }
+
+.nestedGrid {
+    padding: 10px;
+}
+
+
